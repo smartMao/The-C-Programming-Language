@@ -16,8 +16,6 @@ main()
 
 void istrncpy(char *x, char *y, int n)
 {
-	//char *tmp = (int*) malloc(n * sizeof(int));
-	int count = sizeof(char) * 1;
 	char *tmp = (void*) calloc(n, sizeof(char));
 
 	int i = 0;
